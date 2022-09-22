@@ -22,8 +22,9 @@ int main()
         if (array[i] == target)
             continue;
 
-        del_array[count++] = array[i];
-        
+        del_array[count] = array[i];
+        count++;
+
     }
 
     cout << "Deleted: ";
